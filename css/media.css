@@ -1,0 +1,282 @@
+@media screen and (max-width: 1240px) {
+	.projects__card {
+		gap: 1em;
+		align-items: center;
+	}
+	.projects__list {
+		gap: 5em;
+	}
+	.projects__info {
+		width: 50%;
+	}
+	.projects__description, .projects__card--revert .projects__description {
+		padding: 1.5em;
+	}
+
+	.projects__preview {
+		/*position: revert;*/
+	}
+	.projects__gradient {
+		display: none;
+	}
+	.projects__gradient--1 {
+		width: 442px;
+		height: 520px;
+		right: 30%;
+	}
+	.projects__gradient--2 {
+		width: 425px;
+		height: 500px;
+		right: 10%;
+	}
+	.projects__card--revert .projects__description {
+		background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(115, 40, 110, .7) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%)
+	}
+/*	.animation {
+		top: 8%;
+		right: -13%;
+		width: 500px;
+		height: 400px;
+	}
+	.animation__content {
+		height: 115%;
+	}*/
+}
+@media screen and (max-width: 1060px) {
+		.animation {
+		top: 8%;
+		right: -13%;
+		width: 500px;
+		height: 400px;
+	}
+	.animation__content {
+		height: 115%;
+	}
+	/*.animation {
+		display: none;
+	}*/
+}
+@media screen and (max-width: 1024px) {
+	.experience__list {
+		--gap: 10px;
+	}
+	.experience__item {
+		gap: .5em;
+		padding: 1em 1.5em;
+	}
+	.projects__gradient--1 {
+		width: 342px;
+		height: 420px;
+		right: 30%;
+	}
+	.projects__gradient--2 {
+		width: 325px;
+		height: 400px;
+		right: 10%;
+	}
+	.animation {
+		display: none;
+	}
+}
+/*
+width="" height="" loading="lazy"
+aria-label="" title=""
+*/
+@media screen and (max-width: 768px) {
+	.container {
+		width: min(1200px, 100% - 2em);
+		margin: 0 auto;
+	}
+	.preview {
+		padding: 7em 0 0;
+	}
+	.preview__ava-img {
+		width: 125px;
+	}
+	.preview__ava-gradient--desctop {
+		display: none;
+	}
+	.preview__ava-gradient {
+		display: block;
+		max-width: 200px;
+		height: 200px;
+		
+	}
+	.preview__ava-arrow {
+		width: 46px;
+	}
+	.preview__ava-text, .about__text {
+		font-size: 1.25em;
+	}
+	.preview__text-top {
+		font-size: 1em;
+	}
+	.preview__title, .about__title, .stack__title {
+		font-size: 1.625em;
+	}
+
+	.preview__step--2 {
+		margin-top: 4em;
+	}
+	.preview__step--3 {
+		margin-top: 3em;
+		max-width: 770px;
+	}
+	.text {
+		font-size: 1.25em;
+	}
+	.social__links img {
+		--size: 25px
+	}
+
+	.stack__group-title {
+		font-size: 1.5em;
+	}
+	.stack__item img {
+		width: 40px;
+		height: 40px;
+	}
+	.stack__list {
+		justify-content: flex-start;
+	}
+	.stack__item span {
+		font-weight: 500;
+		font-size: 1.125em;
+	}
+
+	/*exp*/
+
+	.experience__list {
+		flex-direction: column;
+		align-items: center;
+		--gap: 1.5em;
+	}
+	.experience__item {
+		width: 100%;
+		max-width: 560px;
+	}
+	.experience__gradient {
+		display: none;
+	}
+
+	/*skills*/
+
+	.goals {
+		margin-top: 7em;
+	}
+
+	/*preview*/
+	.projects {
+		margin-top: 6em;
+	}
+	.projects__card {
+		justify-content: center;
+		padding: 0;
+	}
+	.projects__info {
+		width: 100%;
+		max-width: 450px;
+	}
+	.projects__preview {
+		display: none;
+	}
+	.projects__preview--mob {
+		display: block;
+		position: revert;
+		width: 100%;
+		margin-top: 2em;
+	}
+	.projects__preview img {
+		top: 1.5em;
+		left: 1.5em;
+	}
+	.projects__description {
+		margin-top: 2.5em;
+	}
+	.projects__tags {
+		margin-top: 2em;
+	}
+
+	/*footer*/
+
+	.footer {
+		margin-top: 6em;
+	}
+
+}
+
+@media screen and (max-width: 390px) {
+	.container {
+		width: min(1200px, 100% - 2em);
+		margin: 0 auto;
+	}
+	.preview {
+		padding: 7em 0 0;
+	}
+	.preview__ava-img {
+		width: 115px;
+	}
+	.preview__ava-gradient {
+
+		max-width: 150px;
+		height: 150px;
+		
+	}
+	.preview__ava-arrow {
+		width: 30px;
+	}
+	.preview__ava-text {
+		font-size: 1em;
+	}
+	.preview__text-top {
+		font-size: .875em;
+	}
+	.preview__title {
+		font-size: 1.125em;
+	}
+
+	.preview__step--2 {
+		margin-top: 4em;
+	}
+	.preview__step--3 {
+		margin-top: 3em;
+		max-width: 770px;
+	}
+	.text, .about__text {
+		font-size: 1.125em;
+	}
+	.stack__list {
+		justify-content: space-evenly;
+	}
+	.stack__item {
+		padding: 0;
+	}
+
+	
+	/*exp*/
+	.experience__title {
+		font-size: 2em;
+	}
+	.experience__item {
+		flex-direction: column;
+		gap: 2em;
+		padding: 1em .675em;
+	}
+	.experience__position {
+		font-size: 1.25em;
+		text-align: center;
+	}
+	.skills__list {
+		gap: .5em;
+	}
+	.skills__item {
+		width: 34px;
+		height: 34px;
+	}
+	.goals__subtitle {
+		margin-top: 1em;
+	}
+	.skills {
+		margin-top: 3em;
+	}
+}
